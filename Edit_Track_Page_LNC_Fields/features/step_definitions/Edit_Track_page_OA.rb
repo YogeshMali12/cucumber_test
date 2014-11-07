@@ -11,7 +11,7 @@ Then(/^Filled all mandatory fields on edit track page$/) do
   on(Edit_track_Page).edit_track_Page_oa_side
 end
 
-
+#Click on the the update button
 And(/^Click on the Update button$/) do
   @browser.button(:name, "update_release").click
 end
