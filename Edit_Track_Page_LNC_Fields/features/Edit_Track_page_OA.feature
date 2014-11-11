@@ -20,7 +20,7 @@ Feature: TestCase is for EditTrack page
     Then I should see an ISWC validation error
 
 
-  @this_one
+  @This_one
   Scenario Outline: Publishing Admin (3rd party publishers)
     When I select "<option1>" and save the track
     Then Verify that no is saved successfully
